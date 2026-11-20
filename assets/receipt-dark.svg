@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 412" width="520" height="412"><style>.feed{transform:translateY(-312px);animation:feed 3.4s steps(42,end) .5s forwards}
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 412" width="340" height="269"><style>.feed{transform:translateY(-312px);animation:feed 3.4s steps(42,end) .5s forwards}
 @keyframes feed{to{transform:translateY(0)}}
 .pr{animation:buzz .09s linear .5s 38}
 @keyframes buzz{50%{transform:translate(.6px,-.4px)}}

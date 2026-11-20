@@ -16,7 +16,7 @@ I'm Chris, co-founder and CTO of [Reshelf](https://reshelf.xyz), a marketplace f
 <picture>
   <source media="(max-width: 600px)" srcset="assets/blank.svg">
   <source media="(prefers-color-scheme: dark)" srcset="assets/receipt-dark.svg">
-  <img align="right" width="340" src="assets/receipt-light.svg" alt="Year in code: contributions over the last 12 months, printed as a receipt.">
+  <img align="right" src="assets/receipt-light.svg" alt="Year in code: contributions over the last 12 months, printed as a receipt.">
 </picture>
 
 <!-- DRAFT: the three works -->
@@ -29,5 +29,5 @@ I'm Chris, co-founder and CTO of [Reshelf](https://reshelf.xyz), a marketplace f
 <p align="center"><picture>
   <source media="(min-width: 601px)" srcset="assets/blank.svg">
   <source media="(prefers-color-scheme: dark)" srcset="assets/receipt-dark.svg">
-  <img width="340" src="assets/receipt-light.svg" alt="Year in code: contributions over the last 12 months, printed as a receipt.">
+  <img src="assets/receipt-light.svg" alt="Year in code: contributions over the last 12 months, printed as a receipt.">
 </picture></p>
