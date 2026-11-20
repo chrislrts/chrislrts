@@ -1,0 +1,29 @@
+<picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/header-mobile-dark.svg">
+  <source media="(max-width: 600px)" srcset="assets/header-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
+  <img src="assets/header-light.svg" alt="Chris Lo. Founder, engineer, artist. An animated figure jogs, shoots a basketball, then sits on a bench and reads a book." width="100%">
+</picture>
+
+<!-- DRAFT: links. Replace each # with the real address. -->
+<p align="center"><samp><a href="#">site</a> · <a href="https://lattices.xyz">lattices</a> · <a href="#">x</a> · <a href="#">linkedin</a> · <a href="#">email</a></samp></p>
+
+<!-- DRAFT: intro -->
+I'm Chris, co-founder and CTO of Reshelf, a marketplace for second-hand books in Thailand. My co-founder runs everything the world sees; I build everything underneath it.
+
+### Selected work
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/receipt-dark.svg">
+  <img align="right" width="340" src="assets/receipt-light.svg" alt="Year in code: contributions over the last 12 months, printed as a receipt.">
+</picture>
+
+<!-- DRAFT: the three works -->
+- **Listing review with AI** · <samp>2026</samp><br>Each new listing checked before review
+- **Recommendation engine** · <samp>2026</samp><br>Computed nightly, served in one query
+- **Payments & tax receipts** · <samp>2026</samp><br>Slips verified, documents issued, hands-off
+
+<br clear="right">
+
+<!-- DRAFT: closing line -->
+Hiring, investing, or want to intern at Reshelf? Say hi at [email].
