@@ -49,3 +49,11 @@ test("same data, same bytes", () => {
   const s = stats(viewer);
   assert.equal(printer("light", s), printer("light", s));
 });
+
+test("a sudden collapse in the total is refused (token can't see private work)", async () => {
+  const { plausible } = await import("./receipt.mjs");
+  assert.equal(plausible(3725, 12), false);
+  assert.equal(plausible(3725, 3500), true);
+  assert.equal(plausible(3725, 1900), true);  // a quieter year is fine
+  assert.equal(plausible(0, 0), true);        // nothing stored yet
+});

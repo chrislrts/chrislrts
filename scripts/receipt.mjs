@@ -17,6 +17,9 @@ const r1 = v => Math.round(v * 10) / 10;
 const fmt = n => n.toLocaleString("en-US");
 const svg = (w, h, body, style = "") => `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${w} ${h}" width="${w}" height="${h}"><style>${style}@media (prefers-reduced-motion:reduce){*{animation:none!important}.m,.bk,.cal{opacity:1!important}.w{transform:none!important}.tick{stroke-dashoffset:0!important}}</style>${body}</svg>`;
 
+// A new total below half the stored one almost always means the token cannot see private work.
+export const plausible = (prevTotal, nextTotal) => prevTotal === 0 || nextTotal >= prevTotal / 2;
+
 export function stats(viewer) {
   const cc = viewer.contributionsCollection;
   const days = cc.contributionCalendar.weeks.flatMap(w => w.contributionDays);

@@ -1,7 +1,8 @@
 // Fetches the last 12 months of GitHub's contribution calendar (counts only) into data/contrib.json.
 // Needs CONTRIB_TOKEN: a token with read:user only. Writes nothing unless the answer is complete.
 
-import { writeFileSync } from "node:fs";
+import { existsSync, readFileSync, writeFileSync } from "node:fs";
+import { plausible } from "./receipt.mjs";
 
 const QUERY = `{ viewer { login createdAt contributionsCollection {
   totalCommitContributions totalPullRequestContributions totalPullRequestReviewContributions totalIssueContributions
@@ -24,5 +25,10 @@ if (json.errors) fail(json.errors.map(e => e.message).join("; "));
 const weeks = json.data?.viewer?.contributionsCollection?.contributionCalendar?.weeks;
 if (!Array.isArray(weeks) || weeks.length === 0) fail("no contribution weeks in the answer");
 
-writeFileSync(new URL("../data/contrib.json", import.meta.url), JSON.stringify(json));
+const file = new URL("../data/contrib.json", import.meta.url);
+const prev = existsSync(file) ? JSON.parse(readFileSync(file)).data.viewer.contributionsCollection.contributionCalendar.totalContributions : 0;
+const next = json.data.viewer.contributionsCollection.contributionCalendar.totalContributions;
+if (!plausible(prev, next)) fail(`total fell from ${prev} to ${next}; check the token can see private contributions`);
+
+writeFileSync(file, JSON.stringify(json));
 console.log(`fetch-contrib: ${weeks.length} weeks`);
