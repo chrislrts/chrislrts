@@ -5,8 +5,7 @@
   <img src="assets/header-light.svg" alt="Chris Lo. Founder, engineer, artist. An animated figure jogs, shoots a basketball, then sits on a bench and reads a book." width="100%">
 </picture>
 
-<!-- DRAFT: links. Replace each # with the real address. -->
-<p align="center"><samp><a href="#">site</a> · <a href="https://lattices.xyz">lattices</a> · <a href="#">x</a> · <a href="#">linkedin</a> · <a href="#">email</a></samp></p>
+<p align="center"><samp><a href="https://chrislrt.com">site</a> · <a href="https://lattices.xyz">arts</a> · <a href="mailto:chris.lrts@gmail.com">email</a></samp></p>
 
 <!-- DRAFT: intro -->
 I'm Chris, co-founder and CTO of Reshelf, a marketplace for second-hand books in Thailand. My co-founder runs everything the world sees; I build everything underneath it.
@@ -24,6 +23,3 @@ I'm Chris, co-founder and CTO of Reshelf, a marketplace for second-hand books in
 - **Payments & tax receipts** · <samp>2026</samp><br>Slips verified, documents issued, hands-off
 
 <br clear="right">
-
-<!-- DRAFT: closing line -->
-Hiring, investing, or want to intern at Reshelf? Say hi at [email].
