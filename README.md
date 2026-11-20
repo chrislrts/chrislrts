@@ -8,7 +8,7 @@
 <p align="center"><samp><a href="https://chrislrt.com">site</a> · <a href="https://lattices.xyz">arts</a> · <a href="mailto:chris.lrts@gmail.com">email</a></samp></p>
 
 <!-- DRAFT: intro -->
-I'm Chris, co-founder and CTO of Reshelf, a marketplace for second-hand books in Thailand. My co-founder runs everything the world sees; I build everything underneath it.
+I'm Chris, co-founder and CTO of [Reshelf](https://reshelf.xyz), a marketplace for second-hand books in Thailand. My co-founder runs everything the world sees; I build everything underneath it.
 
 ### Selected work
 
