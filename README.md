@@ -12,7 +12,9 @@ I'm Chris, co-founder and CTO of [Reshelf](https://reshelf.xyz), a marketplace f
 
 ### Selected work
 
+<!-- Receipt floats beside the list on wide screens; on phones it renders after the list instead. -->
 <picture>
+  <source media="(max-width: 600px)" srcset="assets/blank.svg">
   <source media="(prefers-color-scheme: dark)" srcset="assets/receipt-dark.svg">
   <img align="right" width="340" src="assets/receipt-light.svg" alt="Year in code: contributions over the last 12 months, printed as a receipt.">
 </picture>
@@ -23,3 +25,9 @@ I'm Chris, co-founder and CTO of [Reshelf](https://reshelf.xyz), a marketplace f
 - **Payments & tax receipts** · <samp>2026</samp><br>Slips verified, documents issued, hands-off
 
 <br clear="right">
+
+<p align="center"><picture>
+  <source media="(min-width: 601px)" srcset="assets/blank.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/receipt-dark.svg">
+  <img width="340" src="assets/receipt-light.svg" alt="Year in code: contributions over the last 12 months, printed as a receipt.">
+</picture></p>
