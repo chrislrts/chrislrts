@@ -10,6 +10,8 @@
 <!-- DRAFT: intro -->
 I'm Chris, co-founder and CTO of [Reshelf](https://reshelf.xyz), a marketplace for second-hand books in Thailand. My co-founder runs everything the world sees; I build everything underneath it.
 
+I also run [OOTD](https://ootd.works), a studio that adds a little more to every occasion. We make invitations and experiences for weddings, parties, launches and anything else you can imagine.
+
 ### Selected work
 
 <!-- Receipt floats beside the list on wide screens; on phones it renders after the list instead. -->
